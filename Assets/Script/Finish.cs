@@ -55,10 +55,7 @@ public class Finish : MonoBehaviour
 
 	public void CheckForVictory()
 	{
-<<<<<<< HEAD
-=======
 
->>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
 		if (remainingOnes <= 0)
 		{
 			Debug.Log("Load new level");
