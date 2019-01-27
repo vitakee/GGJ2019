@@ -17,7 +17,11 @@ GameObject:
   - component: {fileID: 184589970265098949}
 =======
   - component: {fileID: 7415243769945716440}
+<<<<<<< HEAD
 >>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
+=======
+  - component: {fileID: 2010800625947083268}
+>>>>>>> 7a7bfadb12265b93338a6f71cb82b5c36370f6d3
   m_Layer: 0
   m_Name: RedBuddy
   m_TagString: Buddy
@@ -111,7 +115,11 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
+<<<<<<< HEAD
   m_Constraints: 126
+=======
+  m_Constraints: 112
+>>>>>>> 7a7bfadb12265b93338a6f71cb82b5c36370f6d3
   m_CollisionDetection: 0
 <<<<<<< HEAD
 --- !u!114 &184589970265098949
@@ -146,4 +154,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finishSound: {fileID: 8300000, guid: cd02565bd8f296a458d9374edd5c9751, type: 3}
   painSound: {fileID: 8300000, guid: 54268166f067be04ba83cc3aa82005ed, type: 3}
+<<<<<<< HEAD
 >>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
+=======
+--- !u!75 &2010800625947083268
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153491541532608546}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0, z: 0}
+  m_RelativeForce: {x: 0, y: -9, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
+>>>>>>> 7a7bfadb12265b93338a6f71cb82b5c36370f6d3
