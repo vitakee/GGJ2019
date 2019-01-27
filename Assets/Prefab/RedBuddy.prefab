@@ -13,7 +13,11 @@ GameObject:
   - component: {fileID: 9153491541532608557}
   - component: {fileID: 9153491541532608556}
   - component: {fileID: 9153491541532608547}
+<<<<<<< HEAD
   - component: {fileID: 184589970265098949}
+=======
+  - component: {fileID: 7415243769945716440}
+>>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
   m_Layer: 0
   m_Name: RedBuddy
   m_TagString: Buddy
@@ -109,7 +113,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+<<<<<<< HEAD
 --- !u!114 &184589970265098949
+=======
+--- !u!114 &7415243769945716440
+>>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,6 +126,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9153491541532608546}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: ae853b74b47768d458f90bcf024bcc63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -131,3 +140,10 @@ MonoBehaviour:
   - {fileID: 100058, guid: d093c2cf64ca1204b9972954cefa83b7, type: 3}
   - {fileID: 100058, guid: 7c0a268f3f554004db78f2820d68094e, type: 3}
   team: red
+=======
+  m_Script: {fileID: 11500000, guid: 0e24db93fd58d5b43be73e72919e92b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishSound: {fileID: 8300000, guid: cd02565bd8f296a458d9374edd5c9751, type: 3}
+  painSound: {fileID: 8300000, guid: 54268166f067be04ba83cc3aa82005ed, type: 3}
+>>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
