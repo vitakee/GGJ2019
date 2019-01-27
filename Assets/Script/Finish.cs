@@ -46,6 +46,9 @@ public class Finish : MonoBehaviour
 	public void CheckForVictory()
 	{
 		if (remainingOnes <= 0)
+		{
+			Debug.Log("Load new level");
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		}
 	}
 }
