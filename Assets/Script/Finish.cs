@@ -16,36 +16,47 @@ public class Finish : MonoBehaviour
 
     void Start()
     {
-		if (expected > Finish.remainingOnes)
+        Debug.LogWarning("Started the house");
+        if (expected > Finish.remainingOnes)
 			Finish.remainingOnes = expected;
 	}
 
 	private void OnTriggerEnter(Collider other)
 	{
+        Debug.LogWarning("Entered House");
+
 		if (other.gameObject.name.Contains("Buddy")){
-			if (other.gameObject.name.Contains("BlueBuddy") && houseColor == BuddyColor.BLUE)
+            Debug.LogWarning("It is Buddy");
+            if (other.gameObject.name.Contains("BlueBuddy") && houseColor == BuddyColor.BLUE)
 			{
-				numberBuddy[0]--;
+                Debug.LogWarning("Blue Buddy Here");
+                numberBuddy[0]--;
 				remainingOnes--;
 			}
 			else if (other.gameObject.name.Contains("RedBuddy") && houseColor == BuddyColor.RED)
 			{
-				numberBuddy[1]--;
+                Debug.LogWarning("RED Buddy Here");
+                numberBuddy[1]--;
 				remainingOnes--;
 			}
 			else if(other.gameObject.name.Contains("GreenBuddy") && houseColor == BuddyColor.GREEN)
 			{
-				numberBuddy[2]--;
+                Debug.LogWarning("GREEN buddy here");
+                numberBuddy[2]--;
 				remainingOnes--;
 			}
-			CheckForVictory();
+            Debug.LogWarning("Checking for victory");
+            CheckForVictory();
 		}
 	}
 
 
 	public void CheckForVictory()
 	{
-		if (remainingOnes <= 0)
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (remainingOnes <= 0)
+        {
+            Debug.LogWarning("Loading lvl2");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
 	}
 }
