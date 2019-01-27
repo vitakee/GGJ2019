@@ -11,7 +11,7 @@ public class Finish : MonoBehaviour
 
 	public enum BuddyColor {BLUE,RED,GREEN };
 	public BuddyColor houseColor;
-	public LayerMask buddyLayer;
+	//public LayerMask buddyLayer;
 	public int expected;
 
     void Start()
@@ -47,7 +47,7 @@ public class Finish : MonoBehaviour
 				
 			}
             Debug.LogWarning("Checking for victory");
-			other.gameObject.GetComponent<Buddy>().DestroyBuddy();
+			//other.gameObject.GetComponent<Buddy>().DestroyBuddy();
             CheckForVictory();
 		}
 	}
@@ -55,10 +55,6 @@ public class Finish : MonoBehaviour
 
 	public void CheckForVictory()
 	{
-<<<<<<< HEAD
-=======
-
->>>>>>> f756746f055efb821298ce44b09e9cc0d007d1ec
 		if (remainingOnes <= 0)
 		{
 			Debug.Log("Load new level");

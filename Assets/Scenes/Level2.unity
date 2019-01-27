@@ -5190,9 +5190,8 @@ Transform:
 --- !u!21 &1544238881
 Material:
   serializedVersion: 6
-<<<<<<< HEAD:Assets/Scenes/Level2.unity
-=======
-  m_Component:
+ 
+m_Component:
   - component: {fileID: 1590927455}
   - component: {fileID: 1590927454}
   - component: {fileID: 1590927453}
