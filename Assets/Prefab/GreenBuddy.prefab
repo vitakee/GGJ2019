@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9153491541532608557}
   - component: {fileID: 9153491541532608556}
   - component: {fileID: 9153491541532608547}
+  - component: {fileID: 153249949787271113}
   m_Layer: 0
   m_Name: GreenBuddy
   m_TagString: Untagged
@@ -108,3 +109,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &153249949787271113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153491541532608546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae853b74b47768d458f90bcf024bcc63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Blues:
+  - {fileID: 100058, guid: 1318402c85d985140861ead658809888, type: 3}
+  - {fileID: 100058, guid: 3f71fb3a0d99ad44dbed51f8553450d8, type: 3}
+  Reds:
+  - {fileID: 100058, guid: b3051b60195a5ce46b0e5445fac3fea2, type: 3}
+  - {fileID: 100058, guid: a9a1ff29b1ecab343a3ece4af9063fa5, type: 3}
+  Greens:
+  - {fileID: 100058, guid: d093c2cf64ca1204b9972954cefa83b7, type: 3}
+  - {fileID: 100058, guid: 7c0a268f3f554004db78f2820d68094e, type: 3}
+  team: green

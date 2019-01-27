@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5098467013316233495}
   - component: {fileID: 2609916743811409083}
   m_Layer: 0
-  m_Name: House
+  m_Name: GreenHouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f0d4e9a42bfc25a40bc6bff06231eeab, type: 2}
+  - {fileID: 2100000, guid: 8838f2c507107fa4fb5b4b36b470c3c2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
