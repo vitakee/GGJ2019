@@ -44,8 +44,10 @@ public class Finish : MonoBehaviour
                 Debug.LogWarning("GREEN buddy here");
                 numberBuddy[2]--;
 				remainingOnes--;
+				
 			}
             Debug.LogWarning("Checking for victory");
+			other.gameObject.GetComponent<Buddy>().DestroyBuddy();
             CheckForVictory();
 		}
 	}
@@ -53,18 +55,11 @@ public class Finish : MonoBehaviour
 
 	public void CheckForVictory()
 	{
-<<<<<<< HEAD
-        if (remainingOnes <= 0)
-        {
-            Debug.LogWarning("Loading lvl2");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
-=======
+
 		if (remainingOnes <= 0)
 		{
 			Debug.Log("Load new level");
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
->>>>>>> ed40af55f9de6e7d32577b276b9dd3a6544c164f
 	}
 }

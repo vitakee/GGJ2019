@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 9153491541532608557}
   - component: {fileID: 9153491541532608556}
   - component: {fileID: 9153491541532608547}
+  - component: {fileID: 4393032688221276845}
+  - component: {fileID: 4436157827895520071}
   m_Layer: 0
   m_Name: GreenBuddy
   m_TagString: Untagged
@@ -104,7 +106,33 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!75 &4393032688221276845
+ConstantForce:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153491541532608546}
+  m_Enabled: 0
+  m_Force: {x: 0, y: -9, z: 0}
+  m_RelativeForce: {x: 0, y: 0, z: 0}
+  m_Torque: {x: 0, y: 0, z: 0}
+  m_RelativeTorque: {x: 0, y: 0, z: 0}
+--- !u!114 &4436157827895520071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9153491541532608546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e24db93fd58d5b43be73e72919e92b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  finishSound: {fileID: 8300000, guid: cd02565bd8f296a458d9374edd5c9751, type: 3}
+  painSound: {fileID: 8300000, guid: 698d8b7fa572b3d469c710197cece6eb, type: 3}
